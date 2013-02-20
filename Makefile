@@ -17,3 +17,15 @@ tasks: tasks.rs
 
 run-tasks: tasks
 	./tasks
+
+pipes: pipes.rs
+	rustc pipes.rs
+
+run-pipes: pipes
+	./pipes
+
+duplex: duplex.rs
+	rustc duplex.rs
+
+run-duplex: duplex
+	./duplex
