@@ -11,3 +11,9 @@ test: test-fizzbuzz
 
 test-fizzbuzz: fizzbuzz.rs
 	rustc --test fizzbuzz.rs -o test-fizzbuzz
+
+tasks: tasks.rs
+	rustc tasks.rs
+
+run-tasks: tasks
+	./tasks
